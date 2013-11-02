@@ -64,8 +64,8 @@ NeoBundle 'open-browser.vim'
 NeoBundle 'tpope/vim-surround'
 " コードシンタックス表示
 NeoBundle 'hail2u/vim-css3-syntax'
-NeoBundle 'taichouchou2/html5.vim'
-NeoBundle 'taichouchou2/vim-javascript'
+"NeoBundle 'taichouchou2/html5.vim'
+"NeoBundle 'taichouchou2/vim-javascript'
 NeoBundle 'kchmck/vim-coffee-script'
 
 filetype plugin on
