@@ -387,6 +387,5 @@ let g:vimshell_force_overwrite_statusline = 0
 "=================================
 let g:user_emmet_expandabbr_key = '<c-e>'
 let g:user_emmet_settings = {
-	"html展開した時のlangをjaに
-	'lang' : 'ja'
-}
+\		'lang' : 'ja'
+\}
