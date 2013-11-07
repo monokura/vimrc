@@ -380,3 +380,13 @@ endfunction
 let g:unite_force_overwrite_statusline = 0
 let g:vimfiler_force_overwrite_statusline = 0
 let g:vimshell_force_overwrite_statusline = 0
+
+
+"=================================
+"			ligemmet設定
+"=================================
+let g:user_emmet_expandabbr_key = '<c-e>'
+let g:user_emmet_settings = {
+	"html展開した時のlangをjaに
+	'lang' : 'ja'
+}
