@@ -122,9 +122,9 @@ set novisualbell
 set clipboard+=unnamed
 set clipboard=unnamed
 " 不可視文字を表示
-set list
-" 不可視文字表示の形式
-set listchars=tab:»-,trail:-,extends:»,precedes:«,nbsp:%,eol:↲
+"set list
+" カーソルの表示
+set gcr=i:hor10
 " 移動コマンドを使ったとき、行頭に移動しない
 set nostartofline
 " 対応括弧に<と>のペアを追加
