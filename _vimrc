@@ -84,7 +84,7 @@ colorscheme desert
 "============================================
 "--------------ファイル設定---------------
 " エンコード
-set encoding=utf8
+set encoding=utf-8
 " ファイルエンコード
 set fileencoding=utf-8
 " ファイルフォーマット
@@ -201,6 +201,17 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 " 入力モード中に素早くJJと入力した場合はESCとみなす
 inoremap jj <Esc>
+" 閉じ括弧の自動補完
+inoremap { {}<LEFT>
+inoremap [ []<LEFT>
+inoremap ( ()<LEFT>
+inoremap " ""<LEFT>
+inoremap ' ''<LEFT>
+vnoremap { "zdi^V{<C-R>z}<ESC>
+vnoremap [ "zdi^V[<C-R>z]<ESC>
+vnoremap ( "zdi^V(<C-R>z)<ESC>
+vnoremap " "zdi^V"<C-R>z^V"<ESC>
+vnoremap ' "zdi'<C-R>z'<ESC>
 
 
 """""""""""""""""""""""""""""""
